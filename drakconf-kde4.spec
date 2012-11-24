@@ -1,6 +1,6 @@
 %define name	drakconf-kde4
 %define version	2012.1
-%define release	1 
+%define release	2
 
 Summary:	Drakx tools implementaion for KDE4 Control Center
 Name:		%{name}
@@ -24,6 +24,7 @@ Requires:	kcm-update-freq
 Requires:	kcm-grub2
 Requires:	kcm-rpmdrake-sources
 Requires:	kcm-draksec
+Requires:	kcm-printer
 
 Requires: mandriva-release
 Requires: drakxtools
