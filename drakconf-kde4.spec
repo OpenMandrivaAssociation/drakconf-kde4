@@ -1,6 +1,6 @@
 %define name	drakconf-kde4
 %define version	2012.1
-%define release	2
+%define release	3
 
 Summary:	Drakx tools implementaion for KDE4 Control Center
 Name:		%{name}
@@ -13,14 +13,14 @@ BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 Requires:	kcm-rpmdrake
 Requires:	kcm-harddrake
 Requires:	kcm-drakguard
-Requires:	kcm-drakinvictus
+#Requires:	kcm-drakinvictus
 Requires:	kcm-XFdrake
 Requires:	kcm-drakauth
-Requires:	kcm-drakdvb
+#Requires:	kcm-drakdvb
 Requires:	kcm-drakfirewall
 Requires:	kcm-rpmdrake-update
 Requires:	kcm-userdrake
-Requires:	kcm-update-freq
+#Requires:	kcm-update-freq
 Requires:	kcm-grub2
 Requires:	kcm-rpmdrake-sources
 Requires:	kcm-draksec
