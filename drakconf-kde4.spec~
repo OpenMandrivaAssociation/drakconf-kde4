@@ -3,11 +3,12 @@
 %define release	1 
 
 Summary:	Drakx tools implementaion for KDE4 Control Center
-Name:		drakconf-kde4
-Version:	2013.0
-Release:	1
+Name:		%{name}
+Version:	%{version}
+Release:	%{release}
 License:	GPL
 Group:		System/Base
+BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 Requires:	kcm-rpmdrake
 Requires:	kcm-harddrake
@@ -27,6 +28,7 @@ Requires:	kcm-draksec
 Requires: mandriva-release
 Requires: drakxtools
 Requires: harddrake-ui
+Requires: popt
 Requires: usermode
 Requires: perl-Gtk2
 Requires: perl-Gnome2-Vte
