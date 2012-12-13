@@ -1,7 +1,3 @@
-%define name	drakconf-kde4
-%define version	2012.1
-%define release	1 
-
 Summary:	Drakx tools implementaion for KDE4 Control Center
 Name:		drakconf-kde4
 Version:	2013.0
@@ -42,6 +38,8 @@ Requires: drakx-net
 Requires: drakx-kbd-mouse-x11
 
 Conflicts:	drakconf
+
+BuildArch: noarch
 
 %description
 This metapackage install needing KCM plugins for run Drakx utilites 
