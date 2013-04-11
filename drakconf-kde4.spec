@@ -2,8 +2,9 @@ Summary:	Drakx tools implementaion for KDE4 Control Center
 Name:		drakconf-kde4
 Version:	2013.0
 Release:	1
-License:	GPL
+License:	GPLv2
 Group:		System/Base
+BuildArch:	noarch
 
 Requires:	kcm-rpmdrake
 Requires:	kcm-harddrake
@@ -19,27 +20,24 @@ Requires:	kcm-update-freq
 Requires:	kcm-grub2
 Requires:	kcm-rpmdrake-sources
 Requires:	kcm-draksec
-
-Requires: mandriva-release
-Requires: drakxtools
-Requires: harddrake-ui
-Requires: usermode
-Requires: perl-Gtk2
-Requires: perl-Gnome2-Vte
-Requires: gtk+2.0
-Requires: perl-MDK-Common
-Suggests: system-config-printer
-Requires: rpmdrake 
-Requires: drakguard
-Suggests: mdkonline >= 2.77.19
-Requires: userdrake => 1.2
-Requires: drakconf-icons
-Requires: drakx-net
-Requires: drakx-kbd-mouse-x11
+Requires:	drakconf-icons
+Requires:	drakguard
+Requires:	drakxtools
+Requires:	drakx-net
+Requires:	drakx-kbd-mouse-x11
+Requires:	gtk+2.0
+Requires:	harddrake-ui
+Requires:	mandriva-release
+Requires:	perl-Gtk2
+Requires:	perl-Gnome2-Vte
+Requires:	perl-MDK-Common
+Requires:	rpmdrake 
+Requires:	userdrake => 1.2
+Requires:	usermode
+Suggests:	mdkonline >= 2.77.19
+Suggests:	system-config-printer
 
 Conflicts:	drakconf
-
-BuildArch: noarch
 
 %description
 This metapackage install needing KCM plugins for run Drakx utilites 
