@@ -1,7 +1,7 @@
 Summary:	Drakx tools implementaion for KDE4 Control Center
 Name:		drakconf-kde4
 Version:	2013.0
-Release:	1
+Release:	2
 License:	GPLv2
 Group:		System/Base
 BuildArch:	noarch
@@ -9,7 +9,7 @@ BuildArch:	noarch
 Requires:	kcm-rpmdrake
 Requires:	kcm-harddrake
 Requires:	kcm-drakguard
-Requires:	kcm-drakinvictus
+# Requires:	kcm-drakinvictus
 Requires:	kcm-XFdrake
 Requires:	kcm-drakauth
 Requires:	kcm-drakdvb
