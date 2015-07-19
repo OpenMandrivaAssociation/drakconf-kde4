@@ -1,7 +1,7 @@
 Summary:	Drakx tools implementaion for KDE4 Control Center
 Name:		drakconf-kde4
 Version:	2013.0
-Release:	10
+Release:	11
 License:	GPLv2
 Group:		System/Base
 BuildArch:	noarch
